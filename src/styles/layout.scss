@@ -1,25 +1,33 @@
 .Appli{
 
     .sidebar{
-        width: 15%;
+        width: 16%;
         height: 100vh;
-        background-color: #191d2b;
+        background-color: #202020;
         position: fixed;
+        border-right: 1px solid #2e344e;
     }
 
     .main-content{
-        width: 85%;
-        margin-left: 15%;
-        background-color: #333;
+        width: 84%;
+        margin-left: 16%;
+        background-color: #3F3F3F;
         min-height: 100vh;
+        //background-image: url(../img/dots.svg);
+        display: grid;
+        position: relative;
+        .content{
+          margin: 5rem 15rem;  
+        }
     }
 
     .footer{
         width: 100%;
         border-bottom: 1px solid #2e344e;
         p{
-            text-emphasis: center;
+            text-align: center;
             padding: 1rem 0;
+            color: #eee;
         }
     }
 }
