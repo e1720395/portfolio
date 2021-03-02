@@ -24,8 +24,14 @@ export default function AboutPage() {
                 <SkillsSection skill={'JavaScript'} progress={'75%'} width={'75%'}/>
             </div>
 
+            <Tittle title={'Services'} span={'Services'} />
             <div className="services-container">
-                <ServiceSection image={design} title={'Web design'}/>
+                <ServiceSection image={design} title={'Web Design'}
+                 text={'Lorem ipsum dolor sit amet consectetur adisipcinng elit'}/>
+                <ServiceSection image={design} title={'Game Developpment'}
+                text={'Lorem ipsum dolor sit amet consectetur adisipcinng elit'}/>
+                <ServiceSection image={design} title={'Blockchain'}
+                text={'Lorem ipsum dolor sit amet consectetur adisipcinng elit'}/>
             </div>
         </div>
     )
