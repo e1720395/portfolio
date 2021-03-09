@@ -12,18 +12,16 @@ export default function HomePage() {
                 <h1 className="hero-text">
                     Hi i am
                     <span>
-                        Lorem ipsum
+                        Valera Kuzmenko
                     </span>
                 </h1> 
                 <p className="h-sub-text">
-                    Lorem ipsum dolor sit amet cosectetur aduosucug  
-                    Lorem ipsum dolor sit amet cosectetur aduosucug 
-                    Lorem ipsum dolor sit amet cosectetur aduosucug 
-                    Lorem ipsum dolor sit amet cosectetur aduosucug 
-                    Lorem ipsum dolor sit amet cosectetur aduosucug 
-                    Lorem ipsum dolor sit amet cosectetur aduosucug 
-                    Lorem ipsum dolor sit amet cosectetur aduosucug 
-                    Lorem ipsum dolor sit amet cosectetur aduosucug
+                Future Software Engineer with a passion for web &
+                games technologies and several relevant
+                experiences. Curious by nature and self-taught, I
+                quickly familiarize myself with new technologies,
+                tools, and environments!
+
                 </p>
                 <div className="icons">
                     <Link className="icon-holder">
