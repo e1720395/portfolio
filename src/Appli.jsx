@@ -26,7 +26,7 @@ export default function Appli() {
                 <AboutPage />  
               </Route>
               <Route path="/portfolio" exact>
-                <PortfolioPage />  
+                {/* <PortfolioPage />   */}
               </Route>
               <Route path="/contact" exact>
                 <ContactPage />  

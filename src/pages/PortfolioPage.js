@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 import Categories from '../components/Categories';
 import MenuItems from '../components/MenuItem';
 import Tittle from '../components/Title';
@@ -19,3 +19,4 @@ export default function PortfolioPage() {
         </div>
     )
 }
+*/
