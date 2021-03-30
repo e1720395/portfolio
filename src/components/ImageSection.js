@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../img/avatar.png';
+import avatar from '../img/about.jpg';
 
 export default function ImageSection() {
     return(
@@ -10,10 +10,12 @@ export default function ImageSection() {
             <div className="about-info">
                 <h4> I am <span> Lorem Ipsum</span> </h4>
                 <p className="about-text">
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur"
+                    "Alimenté par des niveaux d'énergie élevés et un enthousiasme sans bornes, je suis
+                    facilement inspiré et plus que disposé à suivre mes fascinations
+                    partout où ils m'emmènent. Je suis passionné, expressif, esprit polyvalent
+                    avec une capacité naturelle à divertir et à inspirer. Je ne suis jamais
+                    satisfait de trouver des idées. Au lieu de cela, j'ai presque
+                    besoin impulsif d'agir sur eux."
                 </p>
                 <div className="about-details">
                     <div className="left-section">
@@ -29,7 +31,7 @@ export default function ImageSection() {
                         <p>: Montreal, LaSalle</p>
                     </div>
                 </div> 
-                <button className="btn-cv">Download CV</button>
+                <button className="btn-cv" >Télécharger mon CV</button>
             </div>
         </div>
     )

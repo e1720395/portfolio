@@ -1,46 +1,46 @@
+import port1 from '../img/avatar.png';
+import port2 from '../img/maya.jpg';
+import port3 from '../img/siteweb.png';
+import port4 from '../img/video.png';
+import port5 from '../img/Affiche.png';
+import port6 from '../img/google.png';
+
 const portfolios = [
     {   
         id:1,
         category: 'Animation',
         title: 'Autodesk Maya',
-        image: '',
-        link: 'www.github.com'    
+        image: port2,
+        link: 'https://www.youtube.com/watch?v=Mju-Szu-2L0 '    
     },
     {   
         id:2,
         category: 'React JS',
         title: 'Vanilla JS Website',
-        image: '',
+        image: port3,
         link: 'www.github.com'    
     },
 
     {   
         id:3,
-        category: 'Digital Marketing',
+        category: 'Marketing Numérique',
         title: 'Google Ads, Facebook Ads',
-        image: '',
+        image: port6,
         link: 'www.github.com'    
     },
 
     {   
         id:4,
-        category: 'Game Dev',
-        title: 'Unity',
-        image: '',
+        category: 'Vidéo',
+        title: 'Vidéo',
+        image: port4,
         link: 'www.github.com'    
     },
     {   
         id:5,
         category: 'Content Creation',
         title: 'Adobe Suite',
-        image: '',
-        link: 'www.github.com'    
-    },
-    {   
-        id:5,
-        category: 'Content Creation',
-        title: 'Adobe Suite',
-        image: '',
+        image: port5,
         link: 'www.github.com'    
     }
 ]

@@ -6,7 +6,7 @@ export default function BlogPage() {
     return(
         <div className="1">
             <div className="b-title">
-                <Tittle title={'Recent Events'} span={'Recent Events'} />
+                <Tittle title={'Événements'} span={'Événements'} />
             </div>
             <div className="BlogPage">
                 {

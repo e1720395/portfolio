@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import avatar from '../img/avatar.png';
+import avatar from '../img/avatar.jpg';
 
 export default function NavBar(){
     return(
@@ -13,12 +13,12 @@ export default function NavBar(){
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
-                            Home
+                            Accueil
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/about" exact activeClassName="active">
-                            About
+                            À propos 
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -33,7 +33,8 @@ export default function NavBar(){
                     </li>
                     <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
-                            Contact
+                            
+                            Contacter
                         </NavLink>
                     </li>
                 </ul>
