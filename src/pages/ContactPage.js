@@ -13,7 +13,7 @@ export default function ContactPage() {
             <div className="contact-section">
                 <ContactItem icon={phone} text1={'514 659 9303'} title={'Phone'} /> 
                 <ContactItem icon={email} text1={'kuzmenkovalera00@gmail.com'} title={'Email'}/>
-                <ContactItem icon={location} text1={'278 rue de Cabano'} title={'Address'}/>
+                <ContactItem icon={location} text1={'Montréal'} title={'Ville'}/>
             </div>
         </div>
     )

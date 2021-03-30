@@ -19,10 +19,10 @@ export default function ImageSection() {
                 </p>
                 <div className="about-details">
                     <div className="left-section">
-                        <p>Full name</p>
-                        <p>Age</p>
-                        <p>Languages</p>
-                        <p>Location</p>
+                        <p>Nom complet</p>
+                        <p>Âge</p>
+                        <p>Langues</p>
+                        <p>Lieux</p>
                     </div>
                     <div className="right-section">
                         <p>: Valerii Kuzmenko</p>
