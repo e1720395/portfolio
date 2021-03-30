@@ -38,7 +38,7 @@ const portfolios = [
     },
     {   
         id:5,
-        category: 'Content Creation',
+        category: 'Créateur de Contenu',
         title: 'Adobe Suite',
         image: port5,
         link: 'www.github.com'    
