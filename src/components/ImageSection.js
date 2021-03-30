@@ -8,7 +8,7 @@ export default function ImageSection() {
                 <img src={avatar} alt="" />
             </div>
             <div className="about-info">
-                <h4> I am <span> Lorem Ipsum</span> </h4>
+                <h4> Je suis <span> Créatif</span> </h4>
                 <p className="about-text">
                     "Alimenté par des niveaux d'énergie élevés et un enthousiasme sans bornes, je suis
                     facilement inspiré et plus que disposé à suivre mes fascinations
